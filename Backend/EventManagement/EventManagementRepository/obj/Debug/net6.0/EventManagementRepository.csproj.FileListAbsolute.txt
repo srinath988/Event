@@ -1,0 +1,17 @@
+C:\first\EventManagement\EventManagementRepository\bin\Debug\net6.0\EventManagementRepository.deps.json
+C:\first\EventManagement\EventManagementRepository\bin\Debug\net6.0\EventManagementRepository.dll
+C:\first\EventManagement\EventManagementRepository\bin\Debug\net6.0\EventManagementRepository.pdb
+C:\first\EventManagement\EventManagementRepository\obj\Debug\net6.0\EventManagementRepository.csproj.AssemblyReference.cache
+C:\first\EventManagement\EventManagementRepository\obj\Debug\net6.0\EventManagementRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\first\EventManagement\EventManagementRepository\obj\Debug\net6.0\EventManagementRepository.AssemblyInfoInputs.cache
+C:\first\EventManagement\EventManagementRepository\obj\Debug\net6.0\EventManagementRepository.AssemblyInfo.cs
+C:\first\EventManagement\EventManagementRepository\obj\Debug\net6.0\EventManagementRepository.csproj.CoreCompileInputs.cache
+C:\first\EventManagement\EventManagementRepository\obj\Debug\net6.0\EventManagementRepository.dll
+C:\first\EventManagement\EventManagementRepository\obj\Debug\net6.0\refint\EventManagementRepository.dll
+C:\first\EventManagement\EventManagementRepository\obj\Debug\net6.0\EventManagementRepository.pdb
+C:\first\EventManagement\EventManagementRepository\obj\Debug\net6.0\ref\EventManagementRepository.dll
+C:\first\EventManagement\EventManagementRepository\bin\Debug\net6.0\EventManagementRepository.runtimeconfig.json
+C:\first\EventManagement\EventManagementRepository\bin\Debug\net6.0\EventManagementEntities.dll
+C:\first\EventManagement\EventManagementRepository\bin\Debug\net6.0\EventManagementEntities.pdb
+C:\first\EventManagement\EventManagementRepository\obj\Debug\net6.0\EventManagementRepository.csproj.CopyComplete
+C:\first\EventManagement\EventManagementRepository\obj\Debug\net6.0\EventManagementRepository.genruntimeconfig.cache

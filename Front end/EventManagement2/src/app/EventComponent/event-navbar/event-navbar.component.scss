@@ -1,0 +1,19 @@
+.router-container {
+  background-color: #eaebee;
+  height: 80vh;
+  .route-btn {
+    display: block;
+    width: 100%;
+    color: #390031;
+    font-weight: 600;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+}
+
+@media (max-width: 770px) {
+  .router-container {
+    height: 30vh;
+  }
+}

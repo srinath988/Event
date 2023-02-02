@@ -1,0 +1,23 @@
+.event-add-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://www.teahub.io/photos/full/239-2394796_blue-hd-sparkle-image-plane-background-image-hd.jpg");
+  background-repeat: no-repeat;
+  form {
+    width: 100%;
+    div {
+      .add-event-input {
+        width: 100%;
+      }
+      padding: 6px;
+    }
+  }
+}
+p {
+  margin-left: 150px;
+  font-size: large;
+  font-weight: 500;
+}

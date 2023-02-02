@@ -1,0 +1,19 @@
+.contact-add-container {
+  border: 2px solid green;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: url("https://wallpaperaccess.com/full/2489630.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  input {
+    border: 1px solid;
+  }
+}
+p {
+  font-weight: 500;
+  color: green;
+}

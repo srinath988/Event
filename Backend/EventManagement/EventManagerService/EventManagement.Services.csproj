@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EventManagementEntities\EventManagement.Models.csproj" />
+    <ProjectReference Include="..\EventManagementRepository\EventManagement.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

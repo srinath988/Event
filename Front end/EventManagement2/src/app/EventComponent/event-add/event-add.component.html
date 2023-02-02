@@ -1,0 +1,62 @@
+<div class="row event-add-container">
+  <div class="col-md-8">
+    <p>Enter The Event Details Below</p>
+    <form [formGroup]="forms" (ngSubmit)="submit()">
+      <div class="input-group flex-nowrap">
+        <input
+          type="text"
+          class="form-control"
+          formControlName="name"
+          placeholder="EventName"
+        />
+      </div>
+      <br />
+      <div class="input-group flex-nowrap">
+        <input
+          type="text"
+          class="form-control add-event-input"
+          formControlName="place"
+          placeholder="EventPlace"
+        />
+      </div>
+      <br />
+      <div class="input-group flex-nowrap">
+        <input
+          type="date"
+          class="form-control"
+          formControlName="time"
+          placeholder="EventDate"
+        />
+      </div>
+      <br />
+      <div class="input-group flex-nowrap">
+        <input
+          type="text"
+          class="form-control"
+          formControlName="details"
+          placeholder="EventDetails"
+        />
+      </div>
+      <br />
+      <div class="input-group flex-nowrap">
+        <input
+          type="text"
+          class="form-control"
+          formControlName="duration"
+          placeholder="EventDuration"
+        />
+      </div>
+      <br />
+      <div class="input-group flex-nowrap">
+        <input
+          type="text"
+          class="form-control"
+          formControlName="comments"
+          placeholder="AddComments"
+        />
+      </div>
+      <button class="btn btn-success" type="submit">Submit</button>
+      <button class="btn btn-primary" type="reset">ResetData</button>
+    </form>
+  </div>
+</div>

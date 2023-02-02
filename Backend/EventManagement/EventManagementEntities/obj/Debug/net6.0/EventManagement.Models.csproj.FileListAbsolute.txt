@@ -1,0 +1,12 @@
+C:\first\EventManagement\EventManagementEntities\bin\Debug\net6.0\EventManagement.Models.deps.json
+C:\first\EventManagement\EventManagementEntities\bin\Debug\net6.0\EventManagement.Models.dll
+C:\first\EventManagement\EventManagementEntities\bin\Debug\net6.0\EventManagement.Models.pdb
+C:\first\EventManagement\EventManagementEntities\obj\Debug\net6.0\EventManagement.Models.csproj.AssemblyReference.cache
+C:\first\EventManagement\EventManagementEntities\obj\Debug\net6.0\EventManagement.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\first\EventManagement\EventManagementEntities\obj\Debug\net6.0\EventManagement.Models.AssemblyInfoInputs.cache
+C:\first\EventManagement\EventManagementEntities\obj\Debug\net6.0\EventManagement.Models.AssemblyInfo.cs
+C:\first\EventManagement\EventManagementEntities\obj\Debug\net6.0\EventManagement.Models.csproj.CoreCompileInputs.cache
+C:\first\EventManagement\EventManagementEntities\obj\Debug\net6.0\EventManagement.Models.dll
+C:\first\EventManagement\EventManagementEntities\obj\Debug\net6.0\refint\EventManagement.Models.dll
+C:\first\EventManagement\EventManagementEntities\obj\Debug\net6.0\EventManagement.Models.pdb
+C:\first\EventManagement\EventManagementEntities\obj\Debug\net6.0\ref\EventManagement.Models.dll

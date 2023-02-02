@@ -1,0 +1,298 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\first\\EventManagement\\EventManagement\\EventManagement.csproj": {}
+  },
+  "projects": {
+    "C:\\first\\EventManagement\\EventManagementEntities\\EventManagementEntities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\first\\EventManagement\\EventManagementEntities\\EventManagementEntities.csproj",
+        "projectName": "EventManagementEntities",
+        "projectPath": "C:\\first\\EventManagement\\EventManagementEntities\\EventManagementEntities.csproj",
+        "packagesPath": "C:\\Users\\srinath.aitipamula\\.nuget\\packages\\",
+        "outputPath": "C:\\first\\EventManagement\\EventManagementEntities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\srinath.aitipamula\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.bwinparty.corp/artifactory/api/nuget/nuget-internal": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\first\\EventManagement\\EventManagementRepository\\EventManagementRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\first\\EventManagement\\EventManagementRepository\\EventManagementRepository.csproj",
+        "projectName": "EventManagementRepository",
+        "projectPath": "C:\\first\\EventManagement\\EventManagementRepository\\EventManagementRepository.csproj",
+        "packagesPath": "C:\\Users\\srinath.aitipamula\\.nuget\\packages\\",
+        "outputPath": "C:\\first\\EventManagement\\EventManagementRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\srinath.aitipamula\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.bwinparty.corp/artifactory/api/nuget/nuget-internal": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\first\\EventManagement\\EventManagementEntities\\EventManagementEntities.csproj": {
+                "projectPath": "C:\\first\\EventManagement\\EventManagementEntities\\EventManagementEntities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\first\\EventManagement\\EventManagement\\EventManagement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\first\\EventManagement\\EventManagement\\EventManagement.csproj",
+        "projectName": "EventManagement",
+        "projectPath": "C:\\first\\EventManagement\\EventManagement\\EventManagement.csproj",
+        "packagesPath": "C:\\Users\\srinath.aitipamula\\.nuget\\packages\\",
+        "outputPath": "C:\\first\\EventManagement\\EventManagement\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\srinath.aitipamula\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.bwinparty.corp/artifactory/api/nuget/nuget-internal": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\first\\EventManagement\\EventManagementEntities\\EventManagementEntities.csproj": {
+                "projectPath": "C:\\first\\EventManagement\\EventManagementEntities\\EventManagementEntities.csproj"
+              },
+              "C:\\first\\EventManagement\\EventManagementRepository\\EventManagementRepository.csproj": {
+                "projectPath": "C:\\first\\EventManagement\\EventManagementRepository\\EventManagementRepository.csproj"
+              },
+              "C:\\first\\EventManagement\\EventManagerService\\EventManagerProvider.csproj": {
+                "projectPath": "C:\\first\\EventManagement\\EventManagerService\\EventManagerProvider.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\first\\EventManagement\\EventManagerService\\EventManagerProvider.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\first\\EventManagement\\EventManagerService\\EventManagerProvider.csproj",
+        "projectName": "EventManagerProvider",
+        "projectPath": "C:\\first\\EventManagement\\EventManagerService\\EventManagerProvider.csproj",
+        "packagesPath": "C:\\Users\\srinath.aitipamula\\.nuget\\packages\\",
+        "outputPath": "C:\\first\\EventManagement\\EventManagerService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\srinath.aitipamula\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.bwinparty.corp/artifactory/api/nuget/nuget-internal": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\first\\EventManagement\\EventManagementEntities\\EventManagementEntities.csproj": {
+                "projectPath": "C:\\first\\EventManagement\\EventManagementEntities\\EventManagementEntities.csproj"
+              },
+              "C:\\first\\EventManagement\\EventManagementRepository\\EventManagementRepository.csproj": {
+                "projectPath": "C:\\first\\EventManagement\\EventManagementRepository\\EventManagementRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

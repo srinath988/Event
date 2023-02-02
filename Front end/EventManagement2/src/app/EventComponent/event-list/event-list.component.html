@@ -1,0 +1,187 @@
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Update The Details</h5>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="EventName"
+            [(ngModel)]="EventList.name"
+          /><br />
+          <input
+            type="text"
+            class="form-control"
+            placeholder="EventPlace"
+            [(ngModel)]="EventList.place"
+          /><br />
+          <input
+            type="date"
+            class="form-control"
+            placeholder="eventDateTime"
+            [(ngModel)]="EventList.time"
+          /><br />
+          <input
+            type="text"
+            class="form-control"
+            placeholder="EventDetails"
+            [(ngModel)]="EventList.details"
+          /><br />
+          <textarea
+            type="text-area"
+            class="form-control"
+            placeholder="EventComments"
+            [(ngModel)]="EventList.comments"
+          ></textarea>
+
+          <br />
+        </div>
+      </div>
+      <!-- </form> -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-dismiss="modal"
+          (click)="editEvent(EventList)"
+        >
+          Save Changes
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div
+  class="modal fade"
+  id="deleteModal"
+  tabindex="-1"
+  aria-labelledby="deleteModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="deleteModalLabel">Warning</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <h4>Do You Want To Delete That Event</h4>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-dismiss="modal"
+          (click)="Delete()"
+        >
+          Delete Event
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="d-flex justify-content-start">
+  Items per page:
+  <select (change)="onPageSizeChange($event)">
+    <option *ngFor="let size of psize" [ngValue]="size">
+      {{ size }}
+    </option>
+  </select>
+</div>
+<br />
+<input
+  type="text"
+  aria-describedby="emailHelp"
+  style="border: 2px solid green"
+  placeholder="search"
+  [(ngModel)]="name"
+  (keyup)="Search(name)"
+/>
+<Button (click)="Search(name)"> search</Button>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">EventId</th>
+      <th scope="col">EventName</th>
+      <th scope="col">EventPlace</th>
+      <th scope="col">EventDetails</th>
+      <th scope="col">EventDate</th>
+      <th scope="col">EventDuration</th>
+      <th scope="col">EventComments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      *ngFor="
+        let event of eventArray
+          | paginate
+            : {
+                currentPage: page,
+                itemsPerPage: size
+              }
+      "
+    >
+      <td>{{ event.id }}</td>
+      <td>{{ event.name }}</td>
+      <td>{{ event.place }}</td>
+      <td>{{ event.details }}</td>
+      <td>{{ event.time | date : "MMM d, y, h:mm a" }}</td>
+      <td>{{ event.duration }}</td>
+      <td>{{ event.comments }}</td>
+
+      <td>
+        <button
+          type="button"
+          class="btn btn-warning"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          (click)="edit(event)"
+        >
+          update
+        </button>
+      </td>
+      <td>
+        <button
+          type="button"
+          class="btn btn-danger"
+          data-bs-toggle="modal"
+          data-bs-target="#deleteModal"
+          (click)="saveSomeThing(event.id)"
+        >
+          delete
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="pagination justify-content-end">
+  <pagination-controls
+    class="page"
+    previousLabel="Previous"
+    nextLabel="Next"
+    (pageChange)="onPageChange($event)"
+  ></pagination-controls>
+</div>
